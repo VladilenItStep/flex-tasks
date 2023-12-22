@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+/*Пример 1*/
+
+.flex-container1 {
+    height: 250px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+}
+
+.square1-1 {
+    background: coral;
+}
+
+.square1-2 {
+    background: rebeccapurple;
+}
+
+.square1-3 {
+    background: crimson;
+}
+
+/*Пример 2*/
+
+.flex-container2 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.square2-1 {
+    background: coral;
+}
+
+.square2-2 {
+    background: rebeccapurple;
+}
+
+.square2-3 {
+    background: crimson;
+}
+
+/*Пример 3*/
+
+.flex-container3 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.square3-1 {
+    background: coral;
+}
+
+.square3-2 {
+    background: rebeccapurple;
+}
+
+.square3-3 {
+    background: crimson;
+}
+
+/*Пример 4*/
+
+.flex-container4 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square4-1 {
+    background: coral;
+}
+
+.square4-2 {
+    background: rebeccapurple;
+}
+
+.square4-3 {
+    background: crimson;
+}
+
+/*Пример 5*/
+
+.flex-container5 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square5-1 {
+    background: coral;
+}
+
+.square5-2 {
+    background: rebeccapurple;
+}
+
+.square5-3 {
+    background: crimson;
+    align-self: flex-end;
+}
+
+
+/*Пример 6*/
+
+.flex-container6 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square6-1 {
+    background: coral;
+    align-self: flex-end;
+}
+
+.square6-2 {
+    background: rebeccapurple;
+}
+
+.square6-3 {
+    background: crimson;
+    align-self: flex-start;
+}
+
+/*Пример 7*/
+
+.flex-container7 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.square7-1 {
+    background: coral;
+    align-self: flex-end;
+}
+
+.square7-2 {
+    background: rebeccapurple;
+    height: 100%;
+}
+
+.square7-3 {
+    background: crimson;
+    align-self: flex-start;
+}
+
+/*Пример 8*/
+
+.flex-container8 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.square8-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: coral;
+}
+
+.square8-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rebeccapurple;
+}
+
+.square8-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: crimson;
+}
+
+/*Пример 9*/
+
+.flex-container9 {
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: cyan;
+    align-content: center;
+}
+
+.square9-1 {
+    background: coral;
+}
+
+.square9-2 {
+    background: rebeccapurple;
+}
+
+.square9-3 {
+    background: crimson;
+}
+
+.square9-4 {
+    background: violet;
+}
+
+.square9-5 {
+    background: seagreen;
+}
+
+.square9-6 {
+    background: palegoldenrod;
+}
+
+.square9-7 {
+    background: lightgreen;
+}
+
+.square9-8 {
+    background: yellowgreen;
+}
+
+.square9-9 {
+    background: darkblue;
+}
+
+.square9-10 {
+    background: darkmagenta;
+}
+
+.square9-11 {
+    background: lightslategray;
+}
+
+.square9-12 {
+    background: goldenrod;
+}
+
+.square9-13 {
+    background: darkkhaki;
+}
+
+.square9-14 {
+    background: darkolivegreen;
+}
+
+.square9-15 {
+    background: fuchsia;
+}
+
+
+/*Пример 10*/
+
+.flex-container10 {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: cyan;
+    align-content: center;
+}
+
+/*Свойство order определяет порядок вывода флексов внутри флекс-контейнера.
+Элементы располагаются согласно значениям свойства order от меньшего к большему.
+При равных значениях order элементы выводятся в том порядке, в каком они появляются
+в исходном коде.*/
+
+.square10-1 {
+    background: coral;
+    order: 3;
+}
+
+.square10-2 {
+    background: rebeccapurple;
+    order: -2;
+}
+
+.square10-3 {
+    background: crimson;
+    order: 1;
+}
+
+.square10-4 {
+    background: violet;
+}
+
+.square10-5 {
+    background: seagreen;
+}
+
+.square10-6 {
+    background: palegoldenrod;
+}
+
+.square10-7 {
+    background: lightgreen;
+}
+
+.square10-8 {
+    background: yellowgreen;
+}
+
+.square10-9 {
+    background: darkblue;
+}
+
+.square10-10 {
+    background: darkmagenta;
+}
+
+.square10-11 {
+    background: lightslategray;
+}
+
+.square10-12 {
+    background: goldenrod;
+}
+
+.square10-13 {
+    background: darkkhaki;
+    order: -1;
+}
+
+.square10-14 {
+    background: darkolivegreen;
+    order: 2;
+}
+
+.square10-15 {
+    background: fuchsia;
+    order: -3;
+}
+
+
+/*Пример 11
+ flex: 1 auto === flex-grow: 1
+
+ flex-grow определяет как много свободного пространства
+ во flex-контейнере должно быть назначено текущему элементу
+ Если элементы имеют одинаковый коэффициент flex-grow, то все они получат одинаковую долю
+ свободного пространства, в противном случае оно распределяется в соответствии с соотношением,
+ определённым различными коэффициентами flex-grow.
+
+Три значения: flex-grow | flex-shrink | flex-basis
+flex: 2 2 10%;
+*/
+
+.flex-container11 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+}
+
+.square11-1 {
+    /*width: 50%;*/
+    width: auto;
+    flex-grow: 1;
+    background: coral;
+}
+
+.square11-2 {
+    /*width: 50%;*/
+    width: auto;
+    flex-grow: 1;
+    background: rebeccapurple;
+}
+
+.square11-3 {
+    /*width: 100%;*/
+    width: auto;
+    flex-grow: 2;
+    background: crimson;
+    align-self: center;
+}
+
+
+/*Пример 12
+ flex: auto 1  === flex-shrink: 1
+
+flex-shrink определяет фактор сжатия flex-элемента.
+Flex-элементы будут заполнять контейнер в зависимости от значения flex-shrink,
+когда стандартная ширина flex-элементов шире, чем flex-контейнер.
+
+*/
+
+.flex-container12 {
+    height: 350px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+}
+
+.square12-1 {
+    flex-shrink: 0;
+    background: coral;
+}
+
+.square12-2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background: rebeccapurple;
+}
+
+.square12-3 {
+    flex-shrink: 0;
+    background: crimson;
+}
